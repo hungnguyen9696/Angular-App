@@ -21,6 +21,15 @@ export class RecipeService {
       "What else you need to say?",
       "https://upload.wikimedia.org/wikipedia/commons/b/be/Burger_King_Angus_Bacon_%26_Cheese_Steak_Burger.jpg",
       [new Ingredient("Buns", 2), new Ingredient("Meat", 1)]
+    ),
+    new Recipe(
+      "Coconut curry chicken",
+      "creamy and delicious dish",
+      "https://i1.wp.com/salu-salo.com/wp-content/uploads/2016/04/Coconut-Curry-Chicken-4.jpg?fit=600%2C600&ssl=1",
+      [
+        new Ingredient("chicken breast", 2),
+        new Ingredient("Curry powder spoon", 2)
+      ]
     )
   ];
 
